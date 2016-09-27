@@ -45,9 +45,9 @@ def attack(password):
 	print(a)
 	"""
 def search():
-    global password
-    for password in passwords:
-        attack(password.replace("\n",""))
+	global password
+	for password in passwords:
+		attack(password.replace("\n",""))
 	print("\n[*]Search ending pass not fount .. !!")
 
 def cargar():
